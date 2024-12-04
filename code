@@ -1,0 +1,15 @@
+# Simple Mad Libs Game in Python
+
+def mad_libs():
+    print("Let's play Mad Libs!")
+    
+    noun = input("Enter a noun: ")
+    verb = input("Enter a verb: ")
+    adjective = input("Enter an adjective: ")
+    place = input("Enter a place: ")
+
+    story = f"Once upon a time in {place}, there was a {adjective} {noun} who liked to {verb} all day long."
+    print("\nYour Mad Libs Story:")
+    print(story)
+
+mad_libs()
